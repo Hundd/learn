@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HUNDD</Machine>
+    <WindowsUser>andrew</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>134d3ab0-7a0e-11e9-8f8a-81500156f633</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\3rdpartylicenses.txt">
+      <PackagePath>www\3rdpartylicenses.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\es2015-polyfills.c5dd28b362270c767b34.js">
+      <PackagePath>www\es2015-polyfills.c5dd28b362270c767b34.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\main.b24aba864b99dfeaa247.js">
+      <PackagePath>www\main.b24aba864b99dfeaa247.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\polyfills.8bbb231b43165d65d357.js">
+      <PackagePath>www\polyfills.8bbb231b43165d65d357.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\runtime.26209474bfa8dc87a77c.js">
+      <PackagePath>www\runtime.26209474bfa8dc87a77c.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\styles.3ff695c00d717f2d2a11.css">
+      <PackagePath>www\styles.3ff695c00d717f2d2a11.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\favicon.ico">
+      <PackagePath>www\favicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="b:\labfiles\mobile\LearnEnglish\cordova\platforms\windows\build\windows\debug\anycpu\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

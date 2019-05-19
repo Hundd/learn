@@ -5,11 +5,16 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:assets": "ng build --prod --base-href . --output-path ./cordova/www/",
+    "build:cordova": "cd cordova && cordova build \"windows\"",
+    "build:app": "npm run build:assets && npm run build:cordova",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "WinAppDeployCmd install -file \"./cordova/platforms/windows/AppPackages/CordovaApp.Windows10_1.0.0.0_anycpu_debug_Test/CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx\" -ip \"192.168.2.105\"" ,
+    "deploy:app": "npm run build:app && npm run deploy"
   },
-  "private": true,
+  "private": true, 
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
