@@ -4,6 +4,8 @@
 /dist
 /tmp
 /out-tsc
+build
+
 # Only exists if Bazel was run
 /bazel-out
 
@@ -48,3 +50,9 @@ Thumbs.db
 
 # Cordova build
 /cordova/www
+/cordova/platforms/browser/www
+/cordova/platforms/android/app/src/main/assets/www/
+/cordova/platforms/windows/www/
+/cordova/platforms/windows/www
+/cordova/platforms/windows/AppPackages
+/cordova/platforms/windows/build/
