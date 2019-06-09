@@ -21,7 +21,11 @@
     "paths": {
       "@core/*": ["src/app/core/*"],
       "@shared/*": ["src/app/shared/*"],
-      "@models/*": ["src/app/models/*"]
+      "@models/*": ["src/app/models/*"],
+      "@reducers/*": ["src/app/reducers/*"],
+      "@effects/*": ["src/app/effects/*"],
+      "@actions/*": ["src/app/actions/*"],
+      "@selectors/*": ["src/app/selectors/*"],
     }
   }
 }

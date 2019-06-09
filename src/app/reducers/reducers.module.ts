@@ -3,8 +3,12 @@ import { CommonModule } from '@angular/common'
 import { StoreModule } from '@ngrx/store'
 import * as fromCards from './cards.reducer'
 
+export interface AppState {
+  cardsState: fromCards.State
+}
+
 const storeModule = StoreModule.forRoot({
-  cards: fromCards.reducer
+  cardsState: fromCards.reducer
 })
 
 @NgModule({
