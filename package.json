@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href /learn/ --deploy-url /learn/ --output-path ./doc/",
     "build:assets": "ng build --prod --base-href . --output-path ./cordova/www/",
     "build:assets:dev": "ng build --base-href . --output-path ./cordova/www/",
     "build:cordova": "cd cordova && cordova build \"windows\"",
