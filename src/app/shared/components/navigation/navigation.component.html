@@ -1,0 +1,20 @@
+<mat-selection-list #list>
+  <mat-list-option>New Words</mat-list-option>
+  <mat-list-option>Repeat Daily</mat-list-option>
+  <mat-list-option>Repeat Weekly</mat-list-option>
+  <mat-list-option>Repeat Monthly</mat-list-option>
+  <mat-list-option>Learned</mat-list-option>
+</mat-selection-list>
+
+<button mat-raised-button color="primary" class="clear-button">
+  Start Learning
+</button>
+
+<button
+  mat-raised-button
+  color="accent"
+  (click)="list.deselectAll()"
+  class="clear-button"
+>
+  Clear Selection
+</button>

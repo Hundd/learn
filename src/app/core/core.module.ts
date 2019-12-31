@@ -5,8 +5,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 const modules = [HttpClientModule, ReactiveFormsModule, FormsModule];
 
 @NgModule({
-  declarations: [],
   imports: modules,
-  exports: modules
+  exports: modules,
 })
 export class CoreModule {}
