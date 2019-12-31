@@ -1,3 +1,10 @@
-<mat-toolbar color="primary">My App</mat-toolbar>
-
-<router-outlet></router-outlet>
+<mat-toolbar color="primary"
+  ><mat-icon class="example-icon">menu</mat-icon>
+  My App
+</mat-toolbar>
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

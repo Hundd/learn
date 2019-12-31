@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
-
+const modules = [HttpClientModule, ReactiveFormsModule, FormsModule];
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule
-  ]
+  imports: modules,
+  exports: modules
 })
-export class CoreModule { }
+export class CoreModule {}
