@@ -8,7 +8,8 @@ import { ReducersModule } from '@reducers/reducers.module'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { PagesModule } from './pages/pages.module'
-import { environment } from 'src/environments/environment'
+import { environment } from 'src/environments/environment';
+import { CoreModule } from './core/core.module'
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,7 +23,8 @@ import { environment } from 'src/environments/environment'
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       logOnly: environment.production // Restrict extension to log-only mode
-    })
+    }),
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
