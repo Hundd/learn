@@ -1,17 +1,16 @@
 import { AppState } from '@reducers/reducers.module';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
 import { Store, select } from '@ngrx/store';
 
-import * as fromCards from '@reducers/cards.reducer';
+// import * as fromCards from '@reducers/cards.reducer';
 import * as selectors from '@selectors/index';
-import { Card } from './../../models/card.model';
+import { Card } from '@models/card.model';
 
 @Component({
   selector: 'app-flash-cards',
   templateUrl: './flash-cards.component.html',
-  styleUrls: ['./flash-cards.component.scss']
+  styleUrls: ['./flash-cards.component.scss'],
 })
 export class FlashCardsComponent implements OnInit {
   cards$: Observable<Card[]>;

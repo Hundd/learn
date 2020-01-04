@@ -1,7 +1,7 @@
 <mat-toolbar color="primary" class="toolbar">
   <button mat-icon-button (click)="onToggleDrawer()" class="menu-icon">
     <mat-icon *ngIf="!isDrawerOpen">menu</mat-icon>
-    <mat-icon *ngIf="isDrawerOpen">highlight_off</mat-icon>
+    <mat-icon *ngIf="isDrawerOpen">clear</mat-icon>
   </button>
   <h1>{{ title }}</h1>
 </mat-toolbar>
@@ -10,7 +10,7 @@
   <mat-drawer mode="side" [opened]="isDrawerOpen">
     <app-navigation></app-navigation>
   </mat-drawer>
-  <mat-drawer-content>
+  <mat-drawer-content class="content">
     <router-outlet></router-outlet>
   </mat-drawer-content>
 </mat-drawer-container>

@@ -1,4 +1,11 @@
-<p>
-  flash-cards works!
-  {{ currentCardIndex$ | async }}
-</p>
+<div>
+  <app-card class="flash-card"></app-card>
+  <div class="buttons">
+    <button mat-mini-fab color="primary" class="button">
+      <mat-icon>navigate_before</mat-icon>
+    </button>
+    <button mat-mini-fab color="primary" class="button">
+      <mat-icon>navigate_next</mat-icon>
+    </button>
+  </div>
+</div>
