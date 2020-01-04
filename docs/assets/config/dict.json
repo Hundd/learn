@@ -1,0 +1,1227 @@
+[
+  {
+    "turkeyText": "merhaba",
+    "englishText": "hi",
+    "id": "65543986282754"
+  },
+  {
+    "turkeyText": "evet",
+    "englishText": "yes",
+    "id": "65543986348290"
+  },
+  {
+    "turkeyText": "hayır",
+    "englishText": "no",
+    "id": "65543986413826"
+  },
+  {
+    "turkeyText": "naber?",
+    "englishText": "what's up?",
+    "id": "65543986479362"
+  },
+  {
+    "turkeyText": "lütfen",
+    "englishText": "please",
+    "id": "65543986544898"
+  },
+  {
+    "turkeyText": "tamam",
+    "englishText": "okay",
+    "id": "65543986610434"
+  },
+  {
+    "turkeyText": "teşekkürler",
+    "englishText": "thank you; thanks",
+    "id": "65543986675970"
+  },
+  {
+    "turkeyText": "günaydın",
+    "englishText": "good morning",
+    "id": "65543986807042"
+  },
+  {
+    "turkeyText": "iyi günler",
+    "englishText": "have a good day",
+    "id": "65560621023490"
+  },
+  {
+    "turkeyText": "iyi geceler",
+    "englishText": "good night",
+    "id": "65543986872578"
+  },
+  {
+    "turkeyText": "gidelim!",
+    "englishText": "let's go!",
+    "id": "65543986938114"
+  },
+  {
+    "turkeyText": "özür dilerim",
+    "englishText": "I'm sorry (I did that)",
+    "id": "65543987003650"
+  },
+  {
+    "turkeyText": "üzgünüm",
+    "englishText": "I'm sorry (to hear that)",
+    "id": "65543987069186"
+  },
+  {
+    "turkeyText": "sonra görüşürüz",
+    "englishText": "see you later",
+    "id": "65543987134722"
+  },
+  {
+    "turkeyText": "hoşça kal",
+    "englishText": "goodbye",
+    "id": "65543987200258"
+  },
+  {
+    "turkeyText": "peki!",
+    "englishText": "alright!",
+    "id": "65560620826882"
+  },
+  {
+    "turkeyText": "tabii ki",
+    "englishText": "of course",
+    "id": "65544002732290"
+  },
+  {
+    "turkeyText": "kahve",
+    "englishText": "coffee",
+    "id": "65543991656706"
+  },
+  {
+    "turkeyText": "sandviç",
+    "englishText": "sandwich",
+    "id": "65560620957954"
+  },
+  {
+    "turkeyText": "evet lütfen",
+    "englishText": "yes please",
+    "id": "65543997620482"
+  },
+  {
+    "turkeyText": "hayır teşekkürler",
+    "englishText": "no thank you",
+    "id": "65543997686018"
+  },
+  {
+    "turkeyText": "olur",
+    "englishText": "fine with me",
+    "id": "65560620892418"
+  },
+  {
+    "turkeyText": "nasıl",
+    "englishText": "how",
+    "id": "65543987265794"
+  },
+  {
+    "turkeyText": "ben",
+    "englishText": "I",
+    "id": "65543987331330"
+  },
+  {
+    "turkeyText": "sen",
+    "englishText": "you (singular informal)",
+    "id": "65543987396866"
+  },
+  {
+    "turkeyText": "-im (-ım; -üm; -um)",
+    "englishText": "I'm",
+    "id": "65543987462402"
+  },
+  {
+    "turkeyText": "-sin (-sın; -sün; -sun)",
+    "englishText": "you're (singular informal)",
+    "id": "65543987527938"
+  },
+  {
+    "turkeyText": "nasılsın?",
+    "englishText": "how are you?",
+    "id": "65543987593474"
+  },
+  {
+    "turkeyText": "çok",
+    "englishText": "very; a lot of; much; many",
+    "id": "65543987659010"
+  },
+  {
+    "turkeyText": "iyi",
+    "englishText": "good; fine; well; nice",
+    "id": "65544001880322"
+  },
+  {
+    "turkeyText": "çok iyi",
+    "englishText": "very well",
+    "id": "65543987724546"
+  },
+  {
+    "turkeyText": "iyiyim",
+    "englishText": "I'm well",
+    "id": "65560621416706"
+  },
+  {
+    "turkeyText": "çok iyiyim",
+    "englishText": "I'm very well",
+    "id": "65543987790082"
+  },
+  {
+    "turkeyText": "peki ya sen?",
+    "englishText": "how about you?",
+    "id": "65543993884930"
+  },
+  {
+    "turkeyText": "ben de iyiyim",
+    "englishText": "I'm also very well",
+    "id": "65560621351170"
+  },
+  {
+    "turkeyText": "-m",
+    "englishText": "mine; my (demonstrative)",
+    "id": "65543987855618"
+  },
+  {
+    "turkeyText": "-n",
+    "englishText": "yours; your (demonstrative, singular informal)",
+    "id": "65543987921154"
+  },
+  {
+    "turkeyText": "benim",
+    "englishText": "my; mine",
+    "id": "65543987986690"
+  },
+  {
+    "turkeyText": "senin",
+    "englishText": "your",
+    "id": "65543988052226"
+  },
+  {
+    "turkeyText": "ne",
+    "englishText": "what; what's",
+    "id": "65543988117762"
+  },
+  {
+    "turkeyText": "ad",
+    "englishText": "name",
+    "id": "65543988183298"
+  },
+  {
+    "turkeyText": "adın ne?",
+    "englishText": "what's your name?",
+    "id": "65543988248834"
+  },
+  {
+    "turkeyText": "adım ...",
+    "englishText": "my name is ...",
+    "id": "65543988314370"
+  },
+  {
+    "turkeyText": "mutlu",
+    "englishText": "happy",
+    "id": "65543988510978"
+  },
+  {
+    "turkeyText": "mutsuz",
+    "englishText": "unhappy",
+    "id": "65543988576514"
+  },
+  {
+    "turkeyText": "üzgün",
+    "englishText": "sad; sorry",
+    "id": "65543988642050"
+  },
+  {
+    "turkeyText": "kızgın",
+    "englishText": "angry",
+    "id": "65543988707586"
+  },
+  {
+    "turkeyText": "haklı",
+    "englishText": "right (being right)",
+    "id": "65543988773122"
+  },
+  {
+    "turkeyText": "haksız",
+    "englishText": "wrong",
+    "id": "65543989035266"
+  },
+  {
+    "turkeyText": "yorgun",
+    "englishText": "tired",
+    "id": "65543988838658"
+  },
+  {
+    "turkeyText": "hasta",
+    "englishText": "sick; ill; (a) patient",
+    "id": "65543988904194"
+  },
+  {
+    "turkeyText": "aç",
+    "englishText": "hungry",
+    "id": "65543988969730"
+  },
+  {
+    "turkeyText": "susamak",
+    "englishText": "to become thirsty",
+    "id": "65543989100802"
+  },
+  {
+    "turkeyText": "üzülmek",
+    "englishText": "to be sad; to be sorry",
+    "id": "65560621482242"
+  },
+  {
+    "turkeyText": "kızmak",
+    "englishText": "to be angry",
+    "id": "65560621547778"
+  },
+  {
+    "turkeyText": "acıkmak",
+    "englishText": "to get hungry",
+    "id": "65560621613314"
+  },
+  {
+    "turkeyText": "mi (mı; mü; mu)",
+    "englishText": "question marker",
+    "id": "65543989166338"
+  },
+  {
+    "turkeyText": "... misin? (musun? ; müsün? ; mısın?)",
+    "englishText": "are you ... ? (singular, informal)",
+    "id": "65543989231874"
+  },
+  {
+    "turkeyText": "... miyim? (muyum? ; müyüm? ; mıyım?)",
+    "englishText": "am I ... ?",
+    "id": "65543989297410"
+  },
+  {
+    "turkeyText": "-yor",
+    "englishText": "present continuous tense suffix",
+    "id": "65543989362946"
+  },
+  {
+    "turkeyText": "haksızım",
+    "englishText": "I'm wrong",
+    "id": "65543989428482"
+  },
+  {
+    "turkeyText": "haksızsın",
+    "englishText": "you're wrong",
+    "id": "65543989494018"
+  },
+  {
+    "turkeyText": "haksız mıyım?",
+    "englishText": "am I wrong?",
+    "id": "65543989559554"
+  },
+  {
+    "turkeyText": "mutluyum",
+    "englishText": "I'm happy",
+    "id": "65543989625090"
+  },
+  {
+    "turkeyText": "mutlusun",
+    "englishText": "you're happy (singular informal)",
+    "id": "65543989690626"
+  },
+  {
+    "turkeyText": "mutlu musun?",
+    "englishText": "are you happy? (singular informal)",
+    "id": "65543989756162"
+  },
+  {
+    "turkeyText": "açım",
+    "englishText": "I'm hungry",
+    "id": "65543989887234"
+  },
+  {
+    "turkeyText": "susadın mı?",
+    "englishText": "are you thirsty? (singular informal)",
+    "id": "65543989952770"
+  },
+  {
+    "turkeyText": "yiyecek",
+    "englishText": "food",
+    "id": "65543990018306"
+  },
+  {
+    "turkeyText": "ekmek",
+    "englishText": "bread; to sow",
+    "id": "65543990083842"
+  },
+  {
+    "turkeyText": "makarna",
+    "englishText": "pasta",
+    "id": "65543990149378"
+  },
+  {
+    "turkeyText": "pirinç",
+    "englishText": "rice",
+    "id": "65543990214914"
+  },
+  {
+    "turkeyText": "patates",
+    "englishText": "potato",
+    "id": "65543990280450"
+  },
+  {
+    "turkeyText": "domates",
+    "englishText": "tomato",
+    "id": "65543990345986"
+  },
+  {
+    "turkeyText": "sebze",
+    "englishText": "vegetable",
+    "id": "65543990411522"
+  },
+  {
+    "turkeyText": "meyve",
+    "englishText": "fruit",
+    "id": "65543990477058"
+  },
+  {
+    "turkeyText": "et",
+    "englishText": "meat",
+    "id": "65543990542594"
+  },
+  {
+    "turkeyText": "salata",
+    "englishText": "salad",
+    "id": "65543990608130"
+  },
+  {
+    "turkeyText": "elma",
+    "englishText": "apple",
+    "id": "65543990673666"
+  },
+  {
+    "turkeyText": "muz",
+    "englishText": "banana",
+    "id": "65543990739202"
+  },
+  {
+    "turkeyText": "portakal",
+    "englishText": "orange (fruit)",
+    "id": "65543990804738"
+  },
+  {
+    "turkeyText": "limon",
+    "englishText": "lemon",
+    "id": "65543990870274"
+  },
+  {
+    "turkeyText": "atıştırmalık",
+    "englishText": "snack",
+    "id": "65543990935810"
+  },
+  {
+    "turkeyText": "çorba",
+    "englishText": "soup",
+    "id": "65543991001346"
+  },
+  {
+    "turkeyText": "yumurta",
+    "englishText": "egg",
+    "id": "65543991066882"
+  },
+  {
+    "turkeyText": "peynir",
+    "englishText": "cheese",
+    "id": "65543991132418"
+  },
+  {
+    "turkeyText": "zeytin",
+    "englishText": "olive",
+    "id": "65543991197954"
+  },
+  {
+    "turkeyText": "yağ",
+    "englishText": "oil",
+    "id": "65543991263490"
+  },
+  {
+    "turkeyText": "tavuk eti",
+    "englishText": "chicken (meat)",
+    "id": "65543991329026"
+  },
+  {
+    "turkeyText": "kırmızı et",
+    "englishText": "beef",
+    "id": "65543991460098"
+  },
+  {
+    "turkeyText": "balık eti",
+    "englishText": "fish (meat)",
+    "id": "65543991525634"
+  },
+  {
+    "turkeyText": "su",
+    "englishText": "water",
+    "id": "65543991591170"
+  },
+  {
+    "turkeyText": "çay",
+    "englishText": "tea",
+    "id": "65543991722242"
+  },
+  {
+    "turkeyText": "bira",
+    "englishText": "beer",
+    "id": "65543991787778"
+  },
+  {
+    "turkeyText": "şarap",
+    "englishText": "wine",
+    "id": "65543991853314"
+  },
+  {
+    "turkeyText": "süt",
+    "englishText": "milk",
+    "id": "65543991918850"
+  },
+  {
+    "turkeyText": "meyve suyu",
+    "englishText": "juice",
+    "id": "65543991984386"
+  },
+  {
+    "turkeyText": "sos",
+    "englishText": "sauce",
+    "id": "65543992049922"
+  },
+  {
+    "turkeyText": "tereyağı",
+    "englishText": "butter",
+    "id": "65543992115458"
+  },
+  {
+    "turkeyText": "o ... (-dir; -tir)",
+    "englishText": "he's; she's; it's; that's",
+    "id": "65543992180994"
+  },
+  {
+    "turkeyText": "olmak",
+    "englishText": "to be; to become; to get; to happen",
+    "id": "65543992246530"
+  },
+  {
+    "turkeyText": "lezzetli",
+    "englishText": "delicious",
+    "id": "65543992312066"
+  },
+  {
+    "turkeyText": "iğrenç",
+    "englishText": "disgusting",
+    "id": "65543992377602"
+  },
+  {
+    "turkeyText": "harika",
+    "englishText": "awesome; wonderful; great",
+    "id": "65543992443138"
+  },
+  {
+    "turkeyText": "ve",
+    "englishText": "and",
+    "id": "65543992508674"
+  },
+  {
+    "turkeyText": "sevmek",
+    "englishText": "to like; to enjoy; to love",
+    "id": "65543992574210"
+  },
+  {
+    "turkeyText": "-er (-ar); -ur (-ür)",
+    "englishText": "present simple suffix",
+    "id": "65543992639746"
+  },
+  {
+    "turkeyText": "severim",
+    "englishText": "I like",
+    "id": "65543992705282"
+  },
+  {
+    "turkeyText": "seversin",
+    "englishText": "you like (singular)",
+    "id": "65543992770818"
+  },
+  {
+    "turkeyText": "-m-",
+    "englishText": "not (embedded in verb)",
+    "id": "65543992836354"
+  },
+  {
+    "turkeyText": "... sevmem",
+    "englishText": "I don't like ...",
+    "id": "65543992901890"
+  },
+  {
+    "turkeyText": "... sevmezsin",
+    "englishText": "you don't like ... (singular informal)",
+    "id": "65543992967426"
+  },
+  {
+    "turkeyText": "ekmek severim",
+    "englishText": "I like bread",
+    "id": "65543993032962"
+  },
+  {
+    "turkeyText": "makarna sevmem",
+    "englishText": "I don't like pasta",
+    "id": "65543993098498"
+  },
+  {
+    "turkeyText": "portakal severim",
+    "englishText": "I like oranges",
+    "id": "65543993164034"
+  },
+  {
+    "turkeyText": "elma sevmem",
+    "englishText": "I don't like apples",
+    "id": "65543993229570"
+  },
+  {
+    "turkeyText": "o lezzetli",
+    "englishText": "it's delicious",
+    "id": "65543993295106"
+  },
+  {
+    "turkeyText": "kahve lezzetli",
+    "englishText": "coffee is delicious",
+    "id": "65543993360642"
+  },
+  {
+    "turkeyText": "çay ve kahveyi severim",
+    "englishText": "I like tea and coffee",
+    "id": "65543993426178"
+  },
+  {
+    "turkeyText": "Türk",
+    "englishText": "Turkish (nationality)",
+    "id": "65543993491714"
+  },
+  {
+    "turkeyText": "İngiliz",
+    "englishText": "English (nationality)",
+    "id": "65543993557250"
+  },
+  {
+    "turkeyText": "Amerikalı",
+    "englishText": "American (nationality)",
+    "id": "65543993622786"
+  },
+  {
+    "turkeyText": "değil",
+    "englishText": "not",
+    "id": "65543993688322"
+  },
+  {
+    "turkeyText": "değilim",
+    "englishText": "I'm not",
+    "id": "65543993753858"
+  },
+  {
+    "turkeyText": "İngilizim",
+    "englishText": "I'm English",
+    "id": "65543993819394"
+  },
+  {
+    "turkeyText": "Türk müsün?",
+    "englishText": "are you Turkish? (singular informal)",
+    "id": "65543993950466"
+  },
+  {
+    "turkeyText": "Türk değilim",
+    "englishText": "I'm not Turkish",
+    "id": "65543994016002"
+  },
+  {
+    "turkeyText": "sayı",
+    "englishText": "number (when counting); score (in games)",
+    "id": "65543994081538"
+  },
+  {
+    "turkeyText": "numara",
+    "englishText": "number (for a purpose)",
+    "id": "65543994147074"
+  },
+  {
+    "turkeyText": "telefon",
+    "englishText": "phone; telephone",
+    "id": "65543994212610"
+  },
+  {
+    "turkeyText": "telefon numarası",
+    "englishText": "phone number",
+    "id": "65543994278146"
+  },
+  {
+    "turkeyText": "sıfır",
+    "englishText": "zero; 0",
+    "id": "65543994343682"
+  },
+  {
+    "turkeyText": "bir",
+    "englishText": "a; an; one; 1; same",
+    "id": "65543994409218"
+  },
+  {
+    "turkeyText": "iki",
+    "englishText": "two; 2",
+    "id": "65543994474754"
+  },
+  {
+    "turkeyText": "üç",
+    "englishText": "three; 3",
+    "id": "65543994540290"
+  },
+  {
+    "turkeyText": "dört",
+    "englishText": "four; 4",
+    "id": "65543994605826"
+  },
+  {
+    "turkeyText": "beş",
+    "englishText": "five; 5",
+    "id": "65543994671362"
+  },
+  {
+    "turkeyText": "altı",
+    "englishText": "six; 6",
+    "id": "65543994736898"
+  },
+  {
+    "turkeyText": "yedi",
+    "englishText": "seven; 7",
+    "id": "65543994802434"
+  },
+  {
+    "turkeyText": "sekiz",
+    "englishText": "eight; 8",
+    "id": "65543994867970"
+  },
+  {
+    "turkeyText": "dokuz",
+    "englishText": "nine; 9",
+    "id": "65543994933506"
+  },
+  {
+    "turkeyText": "on",
+    "englishText": "ten; 10",
+    "id": "65543994999042"
+  },
+  {
+    "turkeyText": "telefon numaran ne?",
+    "englishText": "what's your phone number?",
+    "id": "65543995064578"
+  },
+  {
+    "turkeyText": "telefon numaram ...",
+    "englishText": "my phone number is ...",
+    "id": "65543995130114"
+  },
+  {
+    "turkeyText": "restoran",
+    "englishText": "restaurant",
+    "id": "65543995195650"
+  },
+  {
+    "turkeyText": "masa",
+    "englishText": "table",
+    "id": "65543995261186"
+  },
+  {
+    "turkeyText": "menü",
+    "englishText": "menu",
+    "id": "65543995326722"
+  },
+  {
+    "turkeyText": "hesap",
+    "englishText": "bill; account",
+    "id": "65543995392258"
+  },
+  {
+    "turkeyText": "bıçak",
+    "englishText": "knife",
+    "id": "65543995457794"
+  },
+  {
+    "turkeyText": "çatal",
+    "englishText": "fork",
+    "id": "65543995523330"
+  },
+  {
+    "turkeyText": "kaşık",
+    "englishText": "spoon",
+    "id": "65543995588866"
+  },
+  {
+    "turkeyText": "kişi",
+    "englishText": "person",
+    "id": "65543995719938"
+  },
+  {
+    "turkeyText": "almak",
+    "englishText": "to get; to take; to receive; to have; to buy",
+    "id": "65543995785474"
+  },
+  {
+    "turkeyText": "-ebilmek (-abilmek)",
+    "englishText": "may; might; can; could (suggestions)",
+    "id": "65543995851010"
+  },
+  {
+    "turkeyText": "-ebilirim (-abilirim)",
+    "englishText": "I may; I might; I can; I could (suggestions)",
+    "id": "65543995916546"
+  },
+  {
+    "turkeyText": "-ebiliriz (-abiliriz)",
+    "englishText": "we may; we might; we can",
+    "id": "65543995982082"
+  },
+  {
+    "turkeyText": "-ebilir miyiz? (-abilir miyiz?)",
+    "englishText": "may we ... ? ; might we ... ? ; can we ... ?",
+    "id": "65543996047618"
+  },
+  {
+    "turkeyText": "-siniz",
+    "englishText": "you're (plural informal; formal)",
+    "id": "65543996113154"
+  },
+  {
+    "turkeyText": "... misiniz?",
+    "englishText": "are you ... ? (plural informal; formal)",
+    "id": "65543996178690"
+  },
+  {
+    "turkeyText": "gitmek",
+    "englishText": "to go",
+    "id": "65543996244226"
+  },
+  {
+    "turkeyText": "sipariş vermek",
+    "englishText": "to order",
+    "id": "65543996309762"
+  },
+  {
+    "turkeyText": "yemek",
+    "englishText": "to eat; meal; dish; food",
+    "id": "65543996375298"
+  },
+  {
+    "turkeyText": "içmek",
+    "englishText": "to drink",
+    "id": "65543996440834"
+  },
+  {
+    "turkeyText": "hazır",
+    "englishText": "ready; present",
+    "id": "65543996506370"
+  },
+  {
+    "turkeyText": "paket servis",
+    "englishText": "take-away",
+    "id": "65543996571906"
+  },
+  {
+    "turkeyText": "-i (-ı; -u; -ü)",
+    "englishText": "the",
+    "id": "65543996637442"
+  },
+  {
+    "turkeyText": "çatalı",
+    "englishText": "the fork",
+    "id": "65543996702978"
+  },
+  {
+    "turkeyText": "menüyü",
+    "englishText": "the menu",
+    "id": "65543996768514"
+  },
+  {
+    "turkeyText": "bıçağı",
+    "englishText": "the knife",
+    "id": "65543996834050"
+  },
+  {
+    "turkeyText": "hesabı",
+    "englishText": "the bill",
+    "id": "65543996899586"
+  },
+  {
+    "turkeyText": "için",
+    "englishText": "for",
+    "id": "65543996965122"
+  },
+  {
+    "turkeyText": "benim için",
+    "englishText": "for me",
+    "id": "65543997030658"
+  },
+  {
+    "turkeyText": "senin için",
+    "englishText": "for you",
+    "id": "65543997096194"
+  },
+  {
+    "turkeyText": "o senin için",
+    "englishText": "it's for you",
+    "id": "65543997161730"
+  },
+  {
+    "turkeyText": "o benim için mi?",
+    "englishText": "is it for me?",
+    "id": "65543997227266"
+  },
+  {
+    "turkeyText": "iki kişilik bir masa lütfen",
+    "englishText": "a table for two please",
+    "id": "65543997292802"
+  },
+  {
+    "turkeyText": "... alabilir miyiz lütfen?",
+    "englishText": "can we have ... please?",
+    "id": "65543997358338"
+  },
+  {
+    "turkeyText": "menüyü alabilir miyiz lütfen?",
+    "englishText": "can we have the menu please?",
+    "id": "65543997423874"
+  },
+  {
+    "turkeyText": "hazır mısınız?",
+    "englishText": "are you ready? (formal sing.& plural)",
+    "id": "65543997489410"
+  },
+  {
+    "turkeyText": "sipariş vermek için hazır mısınız?",
+    "englishText": "are you ready to order? (formal)",
+    "id": "65543997554946"
+  },
+  {
+    "turkeyText": "hayır teşekkürler",
+    "englishText": "no thank you",
+    "id": "65543997686018"
+  },
+  {
+    "turkeyText": "düşünmek",
+    "englishText": "to think; to consider; to care",
+    "id": "65543997751554"
+  },
+  {
+    "turkeyText": "konuşmak",
+    "englishText": "to speak; to talk",
+    "id": "65543997817090"
+  },
+  {
+    "turkeyText": "düşünüyorum",
+    "englishText": "I think; I'm thinking",
+    "id": "65543997882626"
+  },
+  {
+    "turkeyText": "konuşuyorum",
+    "englishText": "I speak; I talk; I'm speaking; I'm talking",
+    "id": "65543997948162"
+  },
+  {
+    "turkeyText": "düşünüyorsun",
+    "englishText": "you think; you're thinking (singular informal)",
+    "id": "65543998013698"
+  },
+  {
+    "turkeyText": "konuşuyorsun",
+    "englishText": "you speak; you talk; you're speaking; you're talking (singular informal)",
+    "id": "65543998079234"
+  },
+  {
+    "turkeyText": "düşünüyor",
+    "englishText": "he thinks; he's thinking; she thinks; she's thinking",
+    "id": "65543998144770"
+  },
+  {
+    "turkeyText": "konuşuyor",
+    "englishText": "he speaks; he talks; he's speaking; he's talking",
+    "id": "65543998210306"
+  },
+  {
+    "turkeyText": "düşünüyoruz",
+    "englishText": "we think; we're thinking",
+    "id": "65543998275842"
+  },
+  {
+    "turkeyText": "konuşuyoruz",
+    "englishText": "we speak; we talk; we're speaking; we're talking",
+    "id": "65543998341378"
+  },
+  {
+    "turkeyText": "düşünüyorsunuz",
+    "englishText": "you think; you're thinking (plural informal and formal)",
+    "id": "65543998406914"
+  },
+  {
+    "turkeyText": "konuşuyorsunuz",
+    "englishText": "you speak; you talk; you're speaking; you're talking (plural informal and formal)",
+    "id": "65543998472450"
+  },
+  {
+    "turkeyText": "düşünüyorlar",
+    "englishText": "they think; they're thinking",
+    "id": "65543998537986"
+  },
+  {
+    "turkeyText": "konuşuyorlar",
+    "englishText": "they speak; they talk; they're speaking; they're talking",
+    "id": "65543998603522"
+  },
+  {
+    "turkeyText": "güzel",
+    "englishText": "beautiful; nice",
+    "id": "65543998669058"
+  },
+  {
+    "turkeyText": "güçlü",
+    "englishText": "strong; powerful",
+    "id": "65543998734594"
+  },
+  {
+    "turkeyText": "güçsüz",
+    "englishText": "weak",
+    "id": "65543998800130"
+  },
+  {
+    "turkeyText": "şişman",
+    "englishText": "fat",
+    "id": "65543998865666"
+  },
+  {
+    "turkeyText": "zayıf",
+    "englishText": "thin",
+    "id": "65543998931202"
+  },
+  {
+    "turkeyText": "hoş",
+    "englishText": "nice; beautiful",
+    "id": "65543998996738"
+  },
+  {
+    "turkeyText": "çirkin",
+    "englishText": "ugly",
+    "id": "65543999062274"
+  },
+  {
+    "turkeyText": "havalı",
+    "englishText": "cool",
+    "id": "65543999127810"
+  },
+  {
+    "turkeyText": "büyük",
+    "englishText": "big; large; major",
+    "id": "65543999193346"
+  },
+  {
+    "turkeyText": "kısa",
+    "englishText": "short",
+    "id": "65543999258882"
+  },
+  {
+    "turkeyText": "küçük",
+    "englishText": "small; little",
+    "id": "65543999324418"
+  },
+  {
+    "turkeyText": "uzun",
+    "englishText": "long; tall",
+    "id": "65543999389954"
+  },
+  {
+    "turkeyText": "fazla",
+    "englishText": "too; excessively; overly",
+    "id": "65543999455490"
+  },
+  {
+    "turkeyText": "de (da; te; ta)",
+    "englishText": "too; as well; also",
+    "id": "65543999521026"
+  },
+  {
+    "turkeyText": "öyle",
+    "englishText": "so",
+    "id": "65543999586562"
+  },
+  {
+    "turkeyText": "galiba ...",
+    "englishText": "I think ... (I guess)",
+    "id": "65543999652098"
+  },
+  {
+    "turkeyText": "bence ...",
+    "englishText": "I think ... (in my opinion)",
+    "id": "65543999717634"
+  },
+  {
+    "turkeyText": "o harika",
+    "englishText": "she's wonderful",
+    "id": "65543999783170"
+  },
+  {
+    "turkeyText": "o güzel",
+    "englishText": "she's beautiful",
+    "id": "65543999848706"
+  },
+  {
+    "turkeyText": "o hoş",
+    "englishText": "it's nice",
+    "id": "65543999914242"
+  },
+  {
+    "turkeyText": "ne güzel!",
+    "englishText": "how beautiful!",
+    "id": "65543999979778"
+  },
+  {
+    "turkeyText": "ne düşünüyorsun?",
+    "englishText": "what do you think? (singular informal)",
+    "id": "65544000045314"
+  },
+  {
+    "turkeyText": "bence havalı",
+    "englishText": "I think it's cool",
+    "id": "65544000110850"
+  },
+  {
+    "turkeyText": "bence fazla büyük",
+    "englishText": "I think it's too big",
+    "id": "65544000176386"
+  },
+  {
+    "turkeyText": "bence de öyle",
+    "englishText": "I think so too",
+    "id": "65544000241922"
+  },
+  {
+    "turkeyText": "öyle düşünmüyorum",
+    "englishText": "I don't think so",
+    "id": "65544000307458"
+  },
+  {
+    "turkeyText": "ihtiyacı olmak",
+    "englishText": "to need",
+    "id": "65544000372994"
+  },
+  {
+    "turkeyText": "yardım",
+    "englishText": "help",
+    "id": "65544000438530"
+  },
+  {
+    "turkeyText": "ihtiyacım var",
+    "englishText": "I need",
+    "id": "65544000504066"
+  },
+  {
+    "turkeyText": "yardıma ihtiyacım var",
+    "englishText": "I need help",
+    "id": "65544000569602"
+  },
+  {
+    "turkeyText": "söylemek",
+    "englishText": "to say",
+    "id": "65544000635138"
+  },
+  {
+    "turkeyText": "Türkçede ... nasıl söylenir?",
+    "englishText": "how do you say ... in Turkish?",
+    "id": "65544000700674"
+  },
+  {
+    "turkeyText": "bilmek",
+    "englishText": "to know",
+    "id": "65544000766210"
+  },
+  {
+    "turkeyText": "bilmiyorum",
+    "englishText": "I don't know",
+    "id": "65544000831746"
+  },
+  {
+    "turkeyText": "tanımak",
+    "englishText": "to recognise; to know (someone or somewhere); to be familiar with ...",
+    "id": "65544000897282"
+  },
+  {
+    "turkeyText": "onu tanımıyorum",
+    "englishText": "I don't know him",
+    "id": "65544000962818"
+  },
+  {
+    "turkeyText": "anlamak",
+    "englishText": "to understand; to figure out; to see",
+    "id": "65544001028354"
+  },
+  {
+    "turkeyText": "anlamıyorum",
+    "englishText": "I don't understand",
+    "id": "65544001093890"
+  },
+  {
+    "turkeyText": "anlıyor musun?",
+    "englishText": "do you understand? (singular informal)",
+    "id": "65544001159426"
+  },
+  {
+    "turkeyText": "ben de",
+    "englishText": "me too; me neither",
+    "id": "65544001224962"
+  },
+  {
+    "turkeyText": "tanışmak",
+    "englishText": "to meet (introduce)",
+    "id": "65544001290498"
+  },
+  {
+    "turkeyText": "memnun olmak",
+    "englishText": "to be content",
+    "id": "65544001356034"
+  },
+  {
+    "turkeyText": "tanıştığıma memnun oldum",
+    "englishText": "nice to meet you",
+    "id": "65544001421570"
+  },
+  {
+    "turkeyText": "bu harika!",
+    "englishText": "that's great!",
+    "id": "65544001552642"
+  },
+  {
+    "turkeyText": "burada",
+    "englishText": "here; here it is",
+    "id": "65544001618178"
+  },
+  {
+    "turkeyText": "buyrun",
+    "englishText": "here you go",
+    "id": "65544001683714"
+  },
+  {
+    "turkeyText": "hoşgeldiniz!",
+    "englishText": "welcome!",
+    "id": "65544001749250"
+  },
+  {
+    "turkeyText": "bir şey değil",
+    "englishText": "you're welcome",
+    "id": "65544001814786"
+  },
+  {
+    "turkeyText": "şans",
+    "englishText": "luck",
+    "id": "65544001945858"
+  },
+  {
+    "turkeyText": "iyi şanslar!",
+    "englishText": "good luck!",
+    "id": "65544002011394"
+  }
+]
