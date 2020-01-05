@@ -1,17 +1,6 @@
 <mat-card>
   <mat-card-header class="header">
-    <button mat-icon-button color="warn">
-      <mat-icon>play_circle_filled</mat-icon>
-    </button>
-    <button mat-icon-button color="warn">
-      <mat-icon>play_circle_outline</mat-icon>
-    </button>
-    <button mat-icon-button color="primary">
-      <mat-icon>play_circle_filled</mat-icon>
-    </button>
-    <button mat-icon-button color="primary">
-      <mat-icon>play_circle_outline</mat-icon>
-    </button>
+    1 of 100
   </mat-card-header>
   <mat-card-content>
     <h1 class="text">Hello</h1>
@@ -20,7 +9,25 @@
     <button mat-icon-button color="warn">
       <mat-icon>call_received</mat-icon>
     </button>
-    <button mat-icon-button><mat-icon>flip</mat-icon></button>
     <button mat-icon-button color="primary"><mat-icon>check</mat-icon></button>
+    <button mat-icon-button><mat-icon>flip</mat-icon></button>
+    <div class="play-btn-group">
+      <div class="play-btn-sub-group">
+        <button mat-icon-button color="warn" class="play-btn">
+          <mat-icon>play_circle_filled</mat-icon>
+        </button>
+        <button mat-icon-button color="warn" class="play-btn">
+          <mat-icon>play_circle_outline</mat-icon>
+        </button>
+      </div>
+      <div class="play-btn-sub-group">
+        <button mat-icon-button color="primary" class="play-btn">
+          <mat-icon>play_circle_filled</mat-icon>
+        </button>
+        <button mat-icon-button color="primary" class="play-btn">
+          <mat-icon>play_circle_outline</mat-icon>
+        </button>
+      </div>
+    </div>
   </mat-card-actions>
 </mat-card>
