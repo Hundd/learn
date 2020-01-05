@@ -1,3 +1,4 @@
+import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 import { api } from './api.constant';
 import { HttpClient } from '@angular/common/http';
@@ -10,16 +11,20 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   loadConfig() {
-    return this.http.get<any>(api.config);
+    return this.http.get<any>(resolveUrl(api.config));
   }
 
   loadDictionary() {
-    return this.http.get<any>(api.dict);
+    return this.http.get<any>(resolveUrl(api.dict));
   }
 
   resolveAssetUrl(url: string): string {
     if (url[0] === '.') {
-      return '/assets' + url.slice(1);
+      return resolveUrl('/assets' + url.slice(1));
     }
   }
+}
+
+function resolveUrl(url: string): string {
+  return environment.base + url;
 }
