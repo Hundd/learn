@@ -1,10 +1,41 @@
-<div>
-  <app-card class="flash-card"></app-card>
+<div *ngIf="dataReady$ | async">
+  <app-card
+    class="flash-card"
+    [card]="currentCard"
+    [audio]="audio"
+    [autoPlay]="autoPlay"
+    [currentCardIndex]="currentCardIndex"
+    [totalItems]="totalItems"
+  ></app-card>
+
   <div class="buttons">
-    <button mat-mini-fab color="primary" class="button">
+    <button
+      *ngIf="!autoPlay"
+      (click)="onToggleAudio()"
+      mat-icon-button
+      color="warn"
+      class="button"
+    >
+      <mat-icon>volume_off</mat-icon>
+    </button>
+    <button
+      *ngIf="autoPlay"
+      (click)="onToggleAudio()"
+      mat-icon-button
+      color="warn"
+      class="button"
+    >
+      <mat-icon>volume_up</mat-icon>
+    </button>
+    <button
+      (click)="onPreviousCard()"
+      mat-mini-fab
+      color="primary"
+      class="button"
+    >
       <mat-icon>navigate_before</mat-icon>
     </button>
-    <button mat-mini-fab color="primary" class="button">
+    <button (click)="onNextCard()" mat-mini-fab color="primary" class="button">
       <mat-icon>navigate_next</mat-icon>
     </button>
   </div>

@@ -1,10 +1,6 @@
-import { AppState } from '@reducers/reducers.module';
+import { CardsService, CardAudiConfig } from '@core/services/cards.service';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Store, select } from '@ngrx/store';
-
-// import * as fromCards from '@reducers/cards.reducer';
-import * as selectors from '@selectors/index';
 import { Card } from '@models/card.model';
 
 @Component({
@@ -13,15 +9,48 @@ import { Card } from '@models/card.model';
   styleUrls: ['./flash-cards.component.scss'],
 })
 export class FlashCardsComponent implements OnInit {
-  cards$: Observable<Card[]>;
-  currentCardIndex$: Observable<number>;
+  currentCardIndex = 0;
+  dataReady$: Observable<boolean>;
+  autoPlay = true;
 
-  constructor(private store: Store<AppState>) {}
+  constructor(private cardsService: CardsService) {}
 
   ngOnInit() {
-    this.cards$ = this.store.pipe(select(selectors.selectCards));
-    this.currentCardIndex$ = this.store.pipe(
-      select(selectors.selectCurrentCardIndex)
-    );
+    this.dataReady$ = this.cardsService.dataReady;
+  }
+
+  get cards(): Card[] {
+    return this.cardsService.cards;
+  }
+
+  get currentCard(): Card {
+    return this.cards[this.currentCardIndex];
+  }
+
+  get audio(): CardAudiConfig[] {
+    return this.cardsService.getAudioConfigForCard(this.currentCard.id);
+  }
+  get totalItems() {
+    return this.cards.length;
+  }
+
+  onPreviousCard() {
+    if (this.currentCardIndex > 0) {
+      this.currentCardIndex -= 1;
+    } else if (this.cards.length) {
+      this.currentCardIndex = this.cards.length - 1;
+    }
+  }
+
+  onNextCard() {
+    if (this.currentCardIndex < this.cards.length - 1) {
+      this.currentCardIndex += 1;
+    } else {
+      this.currentCardIndex = 0;
+    }
+  }
+
+  onToggleAudio() {
+    this.autoPlay = !this.autoPlay;
   }
 }
