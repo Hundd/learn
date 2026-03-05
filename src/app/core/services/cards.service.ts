@@ -1,8 +1,8 @@
 import { DataService } from '@core/services/data.service';
 import { Card } from '@models/card.model';
-import { Injectable, OnInit } from '@angular/core';
-import { Observable, of, from, forkJoin, BehaviorSubject } from 'rxjs';
-import { map, mergeMap, toArray, tap, switchMap } from 'rxjs/operators';
+import { Injectable } from '@angular/core';
+import { Observable, from, forkJoin, BehaviorSubject } from 'rxjs';
+import { map, mergeMap, toArray, tap } from 'rxjs/operators';
 
 interface TurkishServerItem {
   turkeyText: string;
@@ -21,16 +21,12 @@ interface TurkishServerConfig {
 @Injectable({
   providedIn: 'root',
 })
-export class CardsService implements OnInit {
+export class CardsService {
   cards: Card[];
   audioConfig: TurkishServerConfig;
   dataReady: BehaviorSubject<boolean> = new BehaviorSubject(false);
 
   constructor(private dataService: DataService) {
-    this.ngOnInit();
-  }
-
-  ngOnInit() {
     forkJoin([this.getTurkishCards(), this.getTurkishConfig()])
       .pipe(
         tap(([cards, config]) => {

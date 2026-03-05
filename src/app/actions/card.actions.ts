@@ -12,12 +12,12 @@ export class LoadCards implements Action {
 
 export class LoadCardsSuccess implements Action {
   readonly type = CardActionTypes.LoadCardsSuccess;
-  constructor(public payload: { data: any }) { }
+  constructor(public payload: { data: unknown }) { }
 }
 
 export class LoadCardsFailure implements Action {
   readonly type = CardActionTypes.LoadCardsFailure;
-  constructor(public payload: { error: any }) { }
+  constructor(public payload: { error: unknown }) { }
 }
 
 export type CardActions = LoadCards | LoadCardsSuccess | LoadCardsFailure;

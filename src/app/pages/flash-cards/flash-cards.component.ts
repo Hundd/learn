@@ -5,6 +5,7 @@ import { Card } from '@models/card.model';
 
 @Component({
   selector: 'app-flash-cards',
+  standalone: false,
   templateUrl: './flash-cards.component.html',
   styleUrls: ['./flash-cards.component.scss'],
 })

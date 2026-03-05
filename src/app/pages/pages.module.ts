@@ -7,6 +7,5 @@ import { FlashCardsComponent } from './flash-cards/flash-cards.component';
   declarations: [FlashCardsComponent],
   imports: [CommonModule, SharedModule],
   exports: [FlashCardsComponent],
-  entryComponents: [FlashCardsComponent],
 })
 export class PagesModule {}

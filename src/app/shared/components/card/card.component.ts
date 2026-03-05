@@ -3,7 +3,6 @@ import { CardAudiConfig } from '@core/services/cards.service';
 import { Card } from '@models/card.model';
 import {
   Component,
-  OnInit,
   Input,
   OnChanges,
   SimpleChanges,
@@ -11,10 +10,11 @@ import {
 
 @Component({
   selector: 'app-card',
+  standalone: false,
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
 })
-export class CardComponent implements OnInit, OnChanges {
+export class CardComponent implements OnChanges {
   isFlipped = false;
   audioPlayer = new Audio();
   constructor(private dataService: DataService) {}
@@ -25,7 +25,6 @@ export class CardComponent implements OnInit, OnChanges {
   @Input() currentCardIndex: number;
   @Input() totalItems: number;
 
-  ngOnInit() {}
   ngOnChanges(changes: SimpleChanges) {
     if ('card' in changes) {
       this.isFlipped = false;
@@ -36,7 +35,7 @@ export class CardComponent implements OnInit, OnChanges {
   }
 
   get cardTitle(): string {
-    return this.isFlipped ? this.card.translation : this.card.targetPhrase;
+    return this.card ? (this.isFlipped ? this.card.translation : this.card.targetPhrase) : '';
   }
 
   onToggleCard() {
